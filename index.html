@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Vince Jason Rabala</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Vince Jason Rabala</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./33.png" alt="Vince Jason Rabala profile picture"/>
+        </div>
+        <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vince Jason Rabala</h1>
+        <p class="section__text__p2">Social Media Manager / Virtual Assistant</p>
+        <div class="btn-container">
+            <button class="btn btn-color-1" 
+            onclick="window.open('file:///D:/My%20Personal%20Information/My%20Portfolio%20Website/My%20Resume.pdf')">
+            Download CV</button>
+                <button class="btn btn-color-2" 
+                onclick="location.href= '#contact'">Contact Info
+                </button>
+        </div>
+        <div id="social-container">
+            <img src="./Linkedin Logo.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/feed/'"/>
+        </div>
+        <div id="social-container">
+            <img src="./Upwork Logo.png" alt="My Upwork profile" class="icon" onclick="location.href='https://www.upwork.com/freelancers/~01c9f03a6913e9b76d'"/>
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./About.png" alt="Profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Experience Icon.png" alt="experience-icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>6 Years <br/> Customer Service Representative</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Education icon.png" alt="education-icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Communication Skills Development<br/> Pierre & Paul Solutions</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                       I'm passionate lifelong learner with an insatiable curiosity. I thrive on challenging myself to acquire new skills and knowledge, always seeking opportunities to grow and evolve. As a self-learner, I believe in the power of continuous education and adapting to the ever-changing world. My creative spirit drives me to approach challenges with innovative solutions. Whether exploring new subjects, creative endeavors, or professional projects, I embrace each opportunity to expand my horizons and contribute my unique perspective to the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./Arrow Icon.png" alt="arrow icon" class="icon arrow" onclick="location.href='#experience'"/>
+    </section>
+    <sectio id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+             <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Social Media Manager</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Social Media Account Setup</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Content Creation</h3>
+                               
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Content Scheduling</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Community Management</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Basic Analytics and Reporting</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Hashtag Research</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Basic Graphic Design</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Basic Paid Advertising Assistance</h3>
+                             
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Regular Updates and Communication</h3>
+                               
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Video Editor</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Color Correction and Grading</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Audio Editing</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Transitions and Effects</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Thumbnail Design</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Basic Motion Graphics</h3>
+        
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Short Form/Long Form Video</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Feedback Implementation</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Video Compression and Optimization</h3>
+                              
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Checkmark Logo.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Communication and Updates</h3>
+                            
+                            </div>
+                        </article>
+                    </div>
+                </div>
+             </div>  
+             <img src="./Arrow Icon.png" alt="arrow icon" class="icon arrow" onclick="location.href='#projects'"/>
+        </div>
+        
+    </section>
+    <section id="projects">
+    <p class="section__text__p1">My Social Media Accounts</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./youtube 1.png" alt="project 1" class="project-img" width=950rem/>
+            </div>
+            <h2 class="experience-sub-title project-title"> Unfiltered Experience</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn1" onclick="location.href='https://www.youtube.com/channel/UC3ld0waUFfZoZ76OrW-iQ6g'">
+                Youtube</button>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn2" onclick="location.href='https://www.tiktok.com/foryou'">
+                    TikTok</button>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn3" onclick="location.href='https://www.pinterest.ph/'">
+                Pinterest</button>
+        </div>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./Affiliate Marketing.png" alt="project 1" class="project-img" width=950rem/>
+        </div>
+        <h2 class="experience-sub-title project-title"> Inspect_Hub</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn4" onclick="location.href='https://www.youtube.com/channel/UC3ld0waUFfZoZ76OrW-iQ6g'">
+            Youtube</button>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn5" onclick="location.href='https://www.facebook.com/bacolodonlineselling/'">
+                Facebook</button>
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn6" onclick="location.href='https://www.instagram.com/'">
+            Instagram</button>
+    </div>
+    </div>
+</div>
+</div>
+<img src="./Arrow Icon.png" alt="arrow icon" class="icon arrow" onclick="location.href='#contact'"/>
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./mail2.png" alt="email-icon" class="icon contact-icon"/>
+            <p><a href="mailto:examplemail@gmail.com">rabalavincejason01@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./Linkedin Logo.png" alt="email-icon" class="icon contact-icon"/>
+            <p><a href="https://www.linkedin.com/feed/">Linkedin</a></p>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Vince Jason Rabala. All Rights Reserved.</p>
+    </footer>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
